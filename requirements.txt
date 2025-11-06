@@ -1,0 +1,31 @@
+# 即梦AI MCP Server - UVX Dependencies
+# 即梦AI MCP服务器 UVX依赖配置
+
+# 注意：这个项目主要使用UVX进行零部署管理
+# 如果需要本地开发环境，可以使用以下依赖
+
+# MCP Framework
+fastmcp>=2.0.0
+
+# HTTP Client for API calls
+httpx>=0.24.0
+
+# Image processing for auto-cropping
+Pillow>=9.0.0
+
+# Environment variable management
+python-dotenv>=0.19.0
+
+# For local development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.20.0
+
+# UVX 零部署优势:
+# ✅ 无需预安装依赖
+# ✅ 自动版本管理
+# ✅ 隔离运行环境
+# ✅ 跨平台兼容
+# ✅ 一键启动
+
+# 推荐的UVX部署命令:
+# uvx run src/final_mcp_server.py
